@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Documentation website for Upstream Data hardware products (loadcenters, mining containers, LoadSync). Built with **Zensical** (a Python static site generator similar to MkDocs Material), deployed to GitHub Pages.
 
-**Live site:** https://upstreamdata.github.io/
+**Live site:** https://docs.upstreamdata.com/
 
 ## Build & Development Commands
 

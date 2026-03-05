@@ -2,7 +2,7 @@
 site_name = "Upstream Data - Docs"
 site_description = "Documentation for Upstream Data hardware."
 site_author = "Upstream Data"
-site_url = "https://upstreamdata.github.io/"
+site_url = "https://docs.upstreamdata.com/"
 copyright = """
 Copyright &copy; 2026 Upstream Data Inc
 """
