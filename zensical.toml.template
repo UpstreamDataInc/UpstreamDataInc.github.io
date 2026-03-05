@@ -3,45 +3,36 @@ site_name = "Upstream Data - Docs"
 site_description = "Documentation for Upstream Data hardware."
 site_author = "Upstream Data"
 site_url = "https://docs.upstreamdata.com/"
-copyright = "Copyright &copy; 2026 Upstream Data Inc\n"
+copyright = """
+Copyright &copy; 2026 Upstream Data Inc
+"""
 use_directory_urls = true
-extra_css = [
-    "stylesheets/images.css",
-]
+extra_css = ["stylesheets/images.css"]
 markdown_extensions = [
     "attr_list",
     "admonition",
     "pymdownx.details",
     "pymdownx.superfences",
-    { "pymdownx.tabbed" = { alternate_style = true, slugify = { case = "lower" } } },
+    {"pymdownx.tabbed" = {alternate_style = true, slugify = {case = "lower"}}},
     "md_in_html",
     "pymdownx.blocks.caption",
     "pymdownx.snippets",
     "abbr",
-    { "pymdownx.tasklist" = { custom_checkbox = true } },
-    { toc = { permalink = true } },
-    { "pymdownx.emoji" = { emoji_index = "zensical.extensions.emoji.twemoji", emoji_generator = "zensical.extensions.emoji.to_svg" } },
+    {"pymdownx.tasklist" = {custom_checkbox = true}},
+    {"toc" = {permalink = true}},
+    {"pymdownx.emoji" = {emoji_index = "zensical.extensions.emoji.twemoji", emoji_generator = "zensical.extensions.emoji.to_svg"}},
     "tables",
     "pymdownx.caret",
     "pymdownx.tilde",
     "pymdownx.mark",
     "pymdownx.smartsymbols",
 ]
-nav = [
-    "index.md",
-    "maintenance.md",
-    "loadsync.md",
-    "contact.md",
-    { Changelog = [
-    "changelogs/loadsync/index.md",
-    "changelogs/loadsync/0.2.5.md",
-] },
-]
 
 [project.theme]
 favicon = "logo/logo.svg"
 logo = "logo/logo.svg"
 language = "en"
+
 features = [
     "navigation.footer",
     "navigation.indexes",
@@ -64,25 +55,25 @@ features = [
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
-
-[project.theme.palette.toggle]
-icon = "lucide/sun"
-name = "Switch to dark mode"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-
-[project.theme.palette.toggle]
-icon = "lucide/moon"
-name = "Switch to light mode"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
 
 [project.theme.font]
 text = "Inter"
 code = "Jetbrains Mono"
 
-[project.extra]
-social = [
-    { icon = "lucide/mail", name = "Contact Support", link = "mailto:support@upstreamdata.com" },
-    { icon = "lucide/globe", name = "Website", link = "upstreamdata.com" },
-]
+[[project.extra.social]]
+icon = "lucide/mail"
+name = "Contact Support"
+link = "mailto:support@upstreamdata.com"
+
+[[project.extra.social]]
+icon = "lucide/globe"
+name = "Website"
+link = "upstreamdata.com"

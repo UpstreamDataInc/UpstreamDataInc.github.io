@@ -1,6 +1,10 @@
-# LoadSync(tm) Guide
+---
+order: 3
+---
 
-LoadSync(tm) is the building management software for your loadcenter. For hardware setup and UPS connections, see the [Loadcenter Guide](initial-setup.md#loadsynctm-setup).
+# LoadSync(tm)
+
+LoadSync(tm) is the building management software for your loadcenter. For hardware setup and UPS connections, see the [Loadcenter Guide](index.md#loadsynctm-setup).
 
 LoadSync(tm) can be accessed remotely with the remote access web UI.  Please [contact us](contact.md) for the login.
 

@@ -1,4 +1,8 @@
-# Maintenance Guide
+---
+order: 2
+---
+
+# Maintenance
 
 ## Engine Maintenance Checklist
 
