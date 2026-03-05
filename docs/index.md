@@ -1,6 +1,6 @@
 ---
 template: redirect.html
-location: /guides/initial-setup
+location: /initial-setup/
 ---
 
-# Documentation
+# Guides

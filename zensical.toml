@@ -8,10 +8,10 @@ Copyright &copy; 2026 Upstream Data Inc
 """
 use_directory_urls = true
 nav = [
-    { "Initial Setup" = "guides/initial-setup.md" },
-    { "Maintenance" = "guides/maintenance.md" },
-    { "LoadSync™" = "guides/loadsync.md" },
-    { "Contact Us" = "guides/contact.md" }
+    { "Initial Setup" = "initial-setup.md" },
+    { "Maintenance" = "maintenance.md" },
+    { "LoadSync™" = "loadsync.md" },
+    { "Contact Us" = "contact.md" }
 ]
 extra_css = ["stylesheets/images.css"]
 markdown_extensions = [
