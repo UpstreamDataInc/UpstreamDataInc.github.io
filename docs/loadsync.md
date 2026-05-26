@@ -19,11 +19,11 @@ The available pages depend on your loadcenter's hardware configuration.
     
     By default, the following pages will display:
 
-    - [x] Home
+    - [x] Overview
     - [x] Miners
     - [x] Graphs
     - [x] Alarms
-    - [x] Help
+    - [x] System
 
     Depending on what devices are communicating with LoadSync(tm), the follow pages may also appear:
 
@@ -35,16 +35,16 @@ The available pages depend on your loadcenter's hardware configuration.
     !!! question "Missing pages/devices"
         
         If LoadSync(tm)  is having trouble communicating with a device, it may be missing some pages.
-        Sometimes this can be rectified by running rediscovery, located on the `Help` page under `Advanced`.
+        Sometimes this can be rectified by running rediscovery, located on the `System` page under `Advanced`.
     
 
-## Home
+## Overview
 
-The home page provides a quick overview of your loadcenter's status, organized into tabs:
+The overbiew page provides a quick overview of your loadcenter's status:
 
 <div class="grid cards" markdown>
 
--   :lucide-thermometer:{ .lg .middle } __Climate__
+-   :lucide-layout-panel-left:{ .lg .middle } __Summary__
 
     ---
 
@@ -52,40 +52,23 @@ The home page provides a quick overview of your loadcenter's status, organized i
     - Fan speed
     - Building temperature
     - Louver state
-    
-    ![Home page - Climate tab](images/loadsync-home-climate.png){ .fix-png }
-    /// caption
-    Climate tab
-    ///
-
--   :lucide-zap:{ .lg .middle } __Power__
-
-    ---
-
     - 3-phase amperage
     - Voltage
-    - Kilowatt readings
-
-    ![Home page - Power tab](images/loadsync-home-power.png){ .fix-png }
-    /// caption
-    Power tab
-    ///
-
--   :lucide-cog:{ .lg .middle } __Engine__ *Hash Generator only*
-
-    ---
+    
+    *Hash Generator only*
 
     - RPM
     - Temperature
     - Oil Pressure
     - Gas Pressure
     - Battery Voltage
-    
-    ![Home page - Engine tab](images/loadsync-home-engine.png){ .fix-png }
+
+
+    ![Overview page](images/loadsync-home.png){ .fix-png }
     /// caption
-    Engine tab
+    Summary tab
     ///
-    
+ 
 
 </div>
 
@@ -557,9 +540,9 @@ Market Sync allows LoadSync(tm) to automatically respond to real-time electricit
     Market sync settings tab
     ///
     
-## Help
+## System
 
-The help page provides network information and setup tools, organized into tabs:
+The system page provides network information and setup tools, organized into tabs:
 
 === "Network"
 
@@ -584,7 +567,7 @@ Tailscale allows for secure, remote access to any miners on a LoadSync(tm) acces
 ### Setup
 
 !!! tip "Connecting Tailscale"
-    1. On the LoadSync interface, navigate to the **Help Page** and select the **Tailscale** tab.
+    1. On the LoadSync interface, navigate to the **System Page** and select the **Tailscale** tab.
     2. If you do not see a Login QR code, click the **New Login** button to generate one.
     3. Scan the QR code with your smartphone and log in using your Tailscale account.
     4. Once authenticated, press the **Connect** button on your smartphone device.

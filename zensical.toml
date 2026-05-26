@@ -34,7 +34,6 @@ nav = [
     "contact.md",
     { Changelog = [
     "changelogs/loadsync/index.md",
-    "changelogs/loadsync/0.2.5.md",
 ] },
 ]
 
