@@ -4,6 +4,50 @@ order: 2
 
 # Maintenance
 
+## Engine Fluid Requirements
+
+=== "5.7L GM"
+
+    !!! info "Oil Specification"
+        SAE 15W-40 ~1200ppm Zinc, API CK-4
+
+    !!! info "Coolant Specification"
+        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
+        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+
+=== "6.7LT PSI"
+
+    !!! info "Oil Specification"
+        SAE 15W-40 Low Ash Gas engine oil (.25-.5% by wt), API CD/CF or higher 
+    !!! info "Coolant Specification"
+        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
+        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+
+=== "11LT PSI"
+
+    !!! info "Oil Specification"
+        SAE 15W-40 Low Ash Gas engine oil (.25-.5% by wt), API CD/CF or higher 
+    !!! info "Coolant Specification"
+        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
+        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+
+=== "13LT PSI"
+
+    !!! info "Oil Specification"
+        SAE 15W-40 Low Ash Gas engine oil (.25-.5% by wt), API CD/CF or higher 
+    !!! info "Coolant Specification"
+        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
+        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+
+=== "22LT Mesa"
+
+    !!! info "Oil Specification"
+        SAE 15W-40 Low Ash Gas engine oil (.25-.5% by wt), API CD/CF or higher 
+    !!! info "Coolant Specification"
+        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
+        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+
+
 ## Engine Maintenance Checklist
 
 === "5.7L GM"
