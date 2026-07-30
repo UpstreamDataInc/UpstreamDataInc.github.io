@@ -4,408 +4,411 @@ order: 2
 
 # Maintenance
 
-## Engine Fluid Requirements
+Use the checklist for the applicable engine. Complete each task at the stated
+service interval. If a check shows a problem, correct the problem before you
+return the engine to service.
+
+## Engine fluid requirements
 
 === "5.7L GM"
 
-    !!! info "Oil Specification"
-        SAE 15W-40 (~1200ppm Zinc), API CK-4
+    !!! info "Oil specification"
+        SAE 15W-40 (~1200 ppm zinc), API CK-4
 
-    !!! info "Coolant Specification"
-        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
-        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+    !!! info "Coolant specification"
+        Non-nitrited extended-life OAT (organic additive technology) 50:50 mix.
+        Recommended products are Delo XLC or Shell Rotella ELC nitrite-free.
 
 === "6.7LT PSI"
 
-    !!! info "Oil Specification"
-        SAE 15W-40 Low Ash Gas engine oil (.25-.5% by wt), API CD/CF or higher 
-    !!! info "Coolant Specification"
-        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
-        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+    !!! info "Oil specification"
+        SAE 15W-40 low-ash gas-engine oil (0.25 to 0.5 percent by weight), API CD or CF, or higher
+    !!! info "Coolant specification"
+        Non-nitrited extended-life OAT (organic additive technology) 50:50 mix.
+        Recommended products are Delo XLC or Shell Rotella ELC nitrite-free.
 
 === "11LT PSI"
 
-    !!! info "Oil Specification"
-        SAE 15W-40 Low Ash Gas engine oil (.25-.5% by wt), API CD/CF or higher 
-    !!! info "Coolant Specification"
-        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
-        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+    !!! info "Oil specification"
+        SAE 15W-40 low-ash gas-engine oil (0.25 to 0.5 percent by weight), API CD or CF, or higher
+    !!! info "Coolant specification"
+        Non-nitrited extended-life OAT (organic additive technology) 50:50 mix.
+        Recommended products are Delo XLC or Shell Rotella ELC nitrite-free.
 
 === "13LT PSI"
 
-    !!! info "Oil Specification"
-        SAE 15W-40 Low Ash Gas engine oil (.25-.5% by wt), API CD/CF or higher 
-    !!! info "Coolant Specification"
-        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
-        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+    !!! info "Oil specification"
+        SAE 15W-40 low-ash gas-engine oil (0.25 to 0.5 percent by weight), API CD or CF, or higher
+    !!! info "Coolant specification"
+        Non-nitrited extended-life OAT (organic additive technology) 50:50 mix.
+        Recommended products are Delo XLC or Shell Rotella ELC nitrite-free.
 
 === "22LT Mesa"
 
-    !!! info "Oil Specification"
-        SAE 15W-40 Low Ash Gas engine oil (.25-.5% by wt), API CD/CF or higher 
-    !!! info "Coolant Specification"
-        Non-nitrited extended life OAT (Organic Additive Technology) 50/50 mix.
-        Recommended, Delo XLC or Shell Rotella ELC Nitrite Free
+    !!! info "Oil specification"
+        SAE 15W-40 low-ash gas-engine oil (0.25 to 0.5 percent by weight), API CD or CF, or higher
+    !!! info "Coolant specification"
+        Non-nitrited extended-life OAT (organic additive technology) 50:50 mix.
+        Recommended products are Delo XLC or Shell Rotella ELC nitrite-free.
 
 
 ## Engine Maintenance Checklist
 
 === "5.7L GM"
-    
+
     !!! note
-        Perform first oil change and comprehensive inspection after the first 500 hours of operation.
+        Perform the first oil change and a complete inspection after the first 500 hours of operation.
 
-    !!! tip "50 Hour Initial Service"
-        
-        - [x] Check Engine Oil Level
-        - [x] Check Engine Coolant Level
-        - [x] Check Engine Oil Pressure
-        - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
+    !!! tip "Initial service at 50 hours"
+        - [x] Check the engine oil level.
+        - [x] Check the engine coolant level.
+        - [x] Check the engine oil pressure.
+        - [x] Check and replace hoses, clamps, pipes, belts, and harness.
 
-    !!! success "Daily/Weekly Checks"
-        - [x] Check for Fluid Leaks
-        - [x] Check Engine Oil Level
-        - [x] Check Engine Coolant Level
-        - [x] Check Engine Oil Pressure
-        - [x] Monitor Oil Pressure                  
-        - [x] Monitor Engine Temperature            
-        - [x] Monitor 12V System                    
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
-        - [x] Check Hoses/Clamps/Pipes/Belts/Harness
+    !!! success "Daily and weekly checks"
+        - [x] Check for fluid leaks.
+        - [x] Check the engine oil level.
+        - [x] Check the engine coolant level.
+        - [x] Check the engine oil pressure.
+        - [x] Monitor oil pressure.
+        - [x] Monitor engine temperature.
+        - [x] Monitor 12 V system.
+        - [x] Monitor the generator phase balance.
+        - [x] Monitor the generator voltage.
+        - [x] Check hoses, clamps, pipes, belts, and harness.
 
-    !!! question "Every 2,500 Hours Service"
-        - [x] Change Oil & Filter (sample)        
-        - [x] Check/Replace Spark Plugs/Cap         
-        - [x] Check/Replace Rotor                   
-        - [x] Check/Replace Wires                   
-        - [x] Check/Replace Air Filter
-        - [x] Check/Replace Breather Filter         
-        - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
-        - [x] Check Ignition System                 
-        - [x] Inspect Water Pump                    
+    !!! question "Service every 2,500 hours"
+        - [x] Change oil and filter (sample).
+        - [x] Check and replace spark plugs and cap.
+        - [x] Check and replace rotor.
+        - [x] Check and replace wires.
+        - [x] Check and replace air filter.
+        - [x] Check and replace breather filter.
+        - [x] Check and replace hoses, clamps, pipes, belts, and harness.
+        - [x] Check ignition system.
+        - [x] Inspect water pump.
 
-    !!! warning "Every 6 Months Service"
-        - [x] Check/Replace Air Filter
-        - [x] Check Coolant Condition (Sample)
-        - [x] Test Batteries/Alternator
+    !!! warning "Service every 6 months"
+        - [x] Check and replace air filter.
+        - [x] Check coolant condition (sample).
+        - [x] Test batteries and alternator.
 
-    !!! failure "Every 2 Years Service"
-        - [x] Replace Coolant
+    !!! failure "Service every 2 years"
+        - [x] Replace coolant.
 
 === "6.7LT PSI"
 
-    !!! tip "Every Service/Daily/Weekly Checks"
-        - [x] Check for Fluid Leaks
-        - [x] Check Engine Oil Level
-        - [x] Check Engine Coolant Level
-        - [x] Monitor Engine Oil Pressure                  
-        - [x] Monitor Engine Coolant Temperature            
-        - [x] Monitor Battery Charging Voltage
-        - [x] Monitor IAT/MAT (Intake Air Temp, Manifold Air Temp)
-        - [x] Monitor Gen Output Voltage
-        - [x] Monitor Gen Voltage 
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
-        - [x] Check Hoses/Clamps/Pipes/Belts/Electrical Harness
+    !!! tip "Every-service, daily, and weekly checks"
+        - [x] Check for fluid leaks.
+        - [x] Check the engine oil level.
+        - [x] Check the engine coolant level.
+        - [x] Monitor the engine oil pressure.
+        - [x] Monitor the engine coolant temperature.
+        - [x] Monitor the battery charging voltage.
+        - [x] Monitor the IAT and MAT (intake air temperature and manifold air temperature).
+        - [x] Monitor the generator output voltage.
+        - [x] Monitor the generator voltage.
+        - [x] Monitor the generator phase balance.
+        - [x] Monitor the generator voltage.
+        - [x] Check hoses, clamps, pipes, belts, and electrical harness.
 
-    !!! success "500 Hour Initial Service"
-        - [x] Change Engine Oil and Filter(s)
-        - [x] Adjust Valve Lash 
-        - [x] Check Engine Coolant Level
-        - [x] Check Engine Oil Pressure
-        - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
+    !!! success "Initial service at 500 hours"
+        - [x] Change engine oil and filter(s).
+        - [x] Adjust valve lash.
+        - [x] Check the engine coolant level.
+        - [x] Check the engine oil pressure.
+        - [x] Check and replace hoses, clamps, pipes, belts, and harness.
 
-    !!! success "Every 750 Hours Service"
-        - [x] Perform Every Service Checks (Pre and Post Shutdown)
-        - [x] Change Oil & Filter (Oil Sample Recommended)
-        - [x] Replace Spark Plugs
-        - [x] Inspect Ignition Coils and Boots
-        - [x] Check/Adjust Valve Lash        
-        - [x] Check/Replace Air Filter
-        - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
+    !!! success "Service every 750 hours"
+        - [x] Perform every-service checks before and after shutdown.
+        - [x] Change oil and filter (oil sample recommended).
+        - [x] Replace spark plugs.
+        - [x] Inspect ignition coils and boots.
+        - [x] Check and adjust valve lash.
+        - [x] Check and replace air filter.
+        - [x] Check and replace hoses, clamps, pipes, belts, and harness.
 
-    !!! warning "Every 8,000 Hours Service"
+    !!! warning "Service every 8,000 hours"
 
-        Top End Overhaull, Including The Following      
+        Top-end overhaul, including the following
 
-        - [x] Cylinder Heads
-        - [x] Rocker Arm Assemblies 
-        - [x] Thermostats, Gaskets and O-Rings 
-        - [x] Water Pump
-        - [x] Engine Coolant 
-        - [x] Charging Alternator 
-        - [x] Throttle Body
-        - [x] Ignition Coils and Boots
-        - [x] Inspect/Replace O~2~ Sensors 
-        - [x] Inspect/Replace Catalyst 
+        - [x] Cylinder heads.
+        - [x] Rocker arm assemblies.
+        - [x] Thermostats, gaskets and O-rings.
+        - [x] Water pump.
+        - [x] Engine coolant.
+        - [x] Charging alternator.
+        - [x] Throttle body.
+        - [x] Ignition coils and boots.
+        - [x] Inspect and replace O~2~ sensors.
+        - [x] Inspect and replace catalyst.
 
-    !!! warning "Every 16,000 Hours Service"
-        - [x] Top End Overhaull (Same as 8,000 Hours Service)
-        - [x] Cooling Fan Hub
-        - [x] Crank Case Ventilation System
-        - [x] Oil Coolers
-        - [x] Camshaft, Bearings, Seals, Lifters, Pushrods, Timing Gears
-        - [x] Exhaust Manifold Assembly and Gaskets
-        - [x] Piston and Connecting Rod Assemblies and Cylinder Liners
-        - [x] Fuel Mixer(s)
-        - [x] EPR(s)
-        - [x] Fuel Lock-Off Valve(s)
+    !!! warning "Service every 16,000 hours"
+        - [x] Top-end overhaul (same as 8,000 hours service).
+        - [x] Cooling fan hub.
+        - [x] Crankcase ventilation system.
+        - [x] Oil coolers.
+        - [x] Camshaft, bearings, seals, lifters, pushrods, timing gears.
+        - [x] Exhaust manifold assembly and gaskets.
+        - [x] Piston and connecting rod assemblies, and cylinder liners.
+        - [x] Fuel mixer(s).
+        - [x] EPR(s).
+        - [x] Fuel lock-off valve(s).
 
-    !!! warning "Every 24,000 Hours Service"
+    !!! warning "Service every 24,000 hours"
 
-        Full Overhaull
+        Full overhaul
 
-        - [x] Top End Overhaull (Same as 8,000 Hours Service)
-        - [x] Crankshaft Assembly, Bearings and Seals
-        - [x] Oil Pump
+        - [x] Top-end overhaul (same as 8,000 hours service).
+        - [x] Crankshaft assembly, bearings and seals.
+        - [x] Oil pump.
 
 === "11LT PSI"
-    
+
     !!! note
-        Perform first oil change and comprehensive inspection after the first 500 hours of operation.
+        Perform the first oil change and a complete inspection after the first 500 hours of operation.
 
-    !!! tip "50 Hour Initial Service"
-        - [x] Check for Fluid Leaks
-        - [x] Check Engine Oil Level
-        - [x] Check Engine Coolant Level
-        - [x] Check Engine Oil Pressure
-        - [x] Check Drive Belts for Tension/Cracks/Splits/Glazing
-        - [x] Check/Replace Air Cleaner Filter Element
-        - [x] Check/Replace Engine Oil Filter
-        - [x] Check/Replace Automatic Belt Tensioners
-        - [x] Check Coolant Hoses for Cracks/Breaks/Hardening
-        - [x] Check Fuel Shut-Off Valves for Leaks/Operation
-        - [x] Check Gas Piping/Hoses for Leaks/Damage
-        - [x] Check Air Induction Piping for Leaks
-        - [x] Check Intake Manifold for Vacuum Leaks
-        - [x] Check Exhaust Manifold for Leaks
-        - [x] Check Exhaust Piping for Leaks
-        - [x] Check O~2~ Sensors/Harness for Damage/Performance
-        - [x] Check Catalyst for Mechanical Damage/Performance
-        - [x] Clean Debris from Radiator Core
-        - [x] Measure/Reset as Needed Intake/Exhaust Valve Clearance
-        - [x] Tighten All Hose Clamps on CAC Piping Boots
-        - [x] Drain LPL Vaporizer Oil Build Up (if Installed)
+    !!! tip "Initial service at 50 hours"
+        - [x] Check for fluid leaks.
+        - [x] Check the engine oil level.
+        - [x] Check the engine coolant level.
+        - [x] Check the engine oil pressure.
+        - [x] Check drive belts for tension, cracks, splits, and glazing.
+        - [x] Check and replace air cleaner filter element.
+        - [x] Check and replace engine oil filter.
+        - [x] Check and replace automatic belt tensioners.
+        - [x] Check coolant hoses for cracks, breaks, and hardening.
+        - [x] Check fuel shut-off valves for leaks and operation.
+        - [x] Check gas piping and hoses for leaks and damage.
+        - [x] Check air induction piping for leaks.
+        - [x] Check intake manifold for vacuum leaks.
+        - [x] Check exhaust manifold for leaks.
+        - [x] Check exhaust piping for leaks.
+        - [x] Check O~2~ sensors and harness for damage and performance.
+        - [x] Check catalyst for mechanical damage and performance.
+        - [x] Clean debris from radiator core.
+        - [x] Measure and reset as needed intake and exhaust valve clearance.
+        - [x] Tighten all hose clamps on CAC piping boots.
+        - [x] Drain LPL vaporizer oil buildup (if installed).
 
-    !!! success "Daily/Weekly Checks"
-        - [x] Check for Fluid Leaks
-        - [x] Check Engine Oil Level
-        - [x] Check Engine Coolant Level
-        - [x] Check Engine Oil Pressure
-        - [x] Monitor Oil Pressure                  
-        - [x] Monitor Engine Temperature            
-        - [x] Monitor 12V System                    
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
-        - [x] Check Hoses/Clamps/Pipes/Belts/Harness
+    !!! success "Daily and weekly checks"
+        - [x] Check for fluid leaks.
+        - [x] Check the engine oil level.
+        - [x] Check the engine coolant level.
+        - [x] Check the engine oil pressure.
+        - [x] Monitor the oil pressure.
+        - [x] Monitor the engine temperature.
+        - [x] Monitor the 12 v system.
+        - [x] Monitor the generator phase balance.
+        - [x] Monitor the generator voltage.
+        - [x] Check the hoses, clamps, pipes, belts, and harness.
 
-    !!! question "Every 250 Hours Service"
-        - [x] Change Oil & Filter (sample)        
-        - [x] Check Drive Belts for Tension/Cracks/Splits/Glazing
-        - [x] Check/Replace Air Cleaner Filter Element
+    !!! question "Service every 250 hours"
+        - [x] Change oil and filter (sample).
+        - [x] Check drive belts for tension, cracks, splits, and glazing.
+        - [x] Check and replace air cleaner filter element.
 
-    !!! warning "Every 750 Hours Service"
-        - [x] Change Engine Oil
-        - [x] Check/Replace Engine Oil Filter
-        - [x] Check/Replace Automatic Belt Tensioners
-        - [x] Check Coolant Hoses for Cracks/Breaks/Hardening
-        - [x] Check Fuel Shut-Off Valves for Leaks/Operation
-        - [x] Check Gas Piping/Hoses for Leaks/Damage
-        - [x] Check Air Induction Piping for Leaks
-        - [x] Check Intake Manifold for Vacuum Leaks
-        - [x] Check Exhaust Manifold for Leaks
-        - [x] Check Exhaust Piping for Leaks
-        - [x] Check O~2~ Sensors/Harness for Damage/Performance
-        - [x] Check Catalyst for Mechanical Damage/Performance
-        - [x] Clean Debris from Radiator Core
-        - [x] Measure/Reset as Needed Intake/Exhaust Valve Clearance
-        - [x] Tighten All Hose Clamps on CAC Piping Boots
-        - [x] Drain LPL Vaporizer Oil Build Up (if Installed)
-        - [x] Check/Replace Spark Plugs/Cap
-        - [x] Check CCV Filter, Replace if Crank Case Pressure is Above Barometric
+    !!! warning "Service every 750 hours"
+        - [x] Change engine oil.
+        - [x] Check and replace engine oil filter.
+        - [x] Check and replace automatic belt tensioners.
+        - [x] Check coolant hoses for cracks, breaks, and hardening.
+        - [x] Check fuel shut-off valves for leaks and operation.
+        - [x] Check gas piping and hoses for leaks and damage.
+        - [x] Check air induction piping for leaks.
+        - [x] Check intake manifold for vacuum leaks.
+        - [x] Check exhaust manifold for leaks.
+        - [x] Check exhaust piping for leaks.
+        - [x] Check O~2~ sensors and harness for damage and performance.
+        - [x] Check catalyst for mechanical damage and performance.
+        - [x] Clean debris from radiator core.
+        - [x] Measure and reset as needed intake and exhaust valve clearance.
+        - [x] Tighten all hose clamps on CAC piping boots.
+        - [x] Drain LPL vaporizer oil buildup (if installed).
+        - [x] Check and replace spark plugs and cap.
+        - [x] Check the CCV filter. replace it if crankcase pressure is above barometric pressure.
 
-    !!! failure "Every Year Service"
-        - [x] Drain, Flush, & Replace Coolant
-        - [x] Check/Replace O~2~ Sensor
-        - [x] Check/Replace Catalyst
-        - [x] Replace Fan & Water Pump Belts
-        - [x] Replace Ignition Coils & Boots
-        - [x] Replace Throttle Bodies
-        - [x] Replace Crankcase Ventilation Impacter
+    !!! failure "Service every year"
+        - [x] Drain, flush, and replace coolant.
+        - [x] Check and replace O~2~ sensor.
+        - [x] Check and replace catalyst.
+        - [x] Replace fan and water pump belts.
+        - [x] Replace ignition coils and boots.
+        - [x] Replace throttle bodies.
+        - [x] Replace crankcase ventilation impacter.
 
-    !!! danger "Every 24,000 Hours (Top End)"
-        - [x] Replace Coolant Pumps
-        - [x] Replace Thermostats, Gaskets, & O-Rings
-        - [x] Replace EPRs
-        - [x] Replace Fuel Lock-off Valves
-        - [x] Replace Cylinder Heads
-        - [x] Replace Rockes Arm Assemblies
-        - [x] Replace Turbocharger Assembly
-        - [x] Replace Crankcase Ventilation Assembly
+    !!! danger "Top-end service at 24,000 hours"
+        - [x] Replace coolant pumps.
+        - [x] Replace thermostats, gaskets, and O-rings.
+        - [x] Replace eprs.
+        - [x] Replace fuel lock-off valves.
+        - [x] Replace cylinder heads.
+        - [x] Replace rocker arm assemblies.
+        - [x] Replace turbocharger assembly.
+        - [x] Replace crankcase ventilation assembly.
 
-    !!! example "Every 48,000 Hours (Overhaul)"
-        - [x] Replace Piston/Connecting Rod Assemblies & Cylinder Liners
-        - [x] Replace Crankshaft Assembly, Bearings, & Seals
-        - [x] Replace Camshaft/Bearings/Seals/Lifters/Pushrods/Timing Gears
-        - [x] Replace Oil Pump
-        - [x] Replace Exhaust Manifold Assembly & Gaskets
-        - [x] Replace Front Accessory Drive Pulleys, Idlers, & Seals
+    !!! example "Overhaul at 48,000 hours"
+        - [x] Replace piston and connecting rod assemblies, and cylinder liners.
+        - [x] Replace crankshaft assembly, bearings, and seals.
+        - [x] Replace camshaft, bearings, seals, lifters, pushrods, and timing gears.
+        - [x] Replace oil pump.
+        - [x] Replace exhaust manifold assembly and gaskets.
+        - [x] Replace front accessory drive pulleys, idlers, and seals.
 
 === "13LT PSI"
-    
-    !!! tip "Every Service/Daily/Weekly Checks"
-        - [x] Check for Fluid Leaks
-        - [x] Check Engine Oil Level
-        - [x] Check Engine Coolant Level
-        - [x] Monitor Engine Oil Pressure                  
-        - [x] Monitor Engine Coolant Temperature            
-        - [x] Monitor Battery Charging Voltage
-        - [x] Monitor IAT/MAT (Intake Air Temp, Manifold Air Temp)
-        - [x] Monitor Gen Output Voltage
-        - [x] Monitor Gen Voltage 
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
-        - [x] Check Hoses/Clamps/Pipes/Belts/Electrical Harness
 
-    !!! success "500 Hour Initial Service"
-        - [x] Change Engine Oil and Filter(s)
-        - [x] Adjust Valve Lash 
-        - [x] Check Engine Coolant Level
-        - [x] Check Engine Oil Pressure
-        - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
+    !!! tip "Every-service, daily, and weekly checks"
+        - [x] Check for fluid leaks.
+        - [x] Check the engine oil level.
+        - [x] Check the engine coolant level.
+        - [x] Monitor the engine oil pressure.
+        - [x] Monitor the engine coolant temperature.
+        - [x] Monitor the battery charging voltage.
+        - [x] Monitor the IAT and MAT (intake air temperature and manifold air temperature).
+        - [x] Monitor the generator output voltage.
+        - [x] Monitor the generator voltage.
+        - [x] Monitor the generator phase balance.
+        - [x] Monitor the generator voltage.
+        - [x] Check hoses, clamps, pipes, belts, and electrical harness.
 
-    !!! success "Every 750 Hours Service"
-        - [x] Perform Every Service Checks (Pre and Post Shutdown)
-        - [x] Change Oil & Filter (Oil Sample Recommended)
-        - [x] Replace Spark Plugs
-        - [x] Inspect Ignition Coils and Boots
-        - [x] Check/Adjust Valve Lash        
-        - [x] Check/Replace Air Filter
-        - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
+    !!! success "Initial service at 500 hours"
+        - [x] Change engine oil and filter(s).
+        - [x] Adjust valve lash.
+        - [x] Check the engine coolant level.
+        - [x] Check the engine oil pressure.
+        - [x] Check and replace hoses, clamps, pipes, belts, and harness.
 
-    !!! warning "Every 8,000 Hours Service"
+    !!! success "Service every 750 hours"
+        - [x] Perform every-service checks before and after shutdown.
+        - [x] Change oil and filter (oil sample recommended).
+        - [x] Replace spark plugs.
+        - [x] Inspect ignition coils and boots.
+        - [x] Check and adjust valve lash.
+        - [x] Check and replace air filter.
+        - [x] Check and replace hoses, clamps, pipes, belts, and harness.
 
-        Top End Overhaull, Including The Following      
+    !!! warning "Service every 8,000 hours"
 
-        - [x] Cylinder Heads
-        - [x] Rocker Arm Assemblies 
-        - [x] Thermostats, Gaskets and O-Rings 
-        - [x] Water Pump
-        - [x] Engine Coolant 
-        - [x] Charging Alternator 
-        - [x] Throttle Body
-        - [x] Ignition Coils and Boots
-        - [x] Inspect/Replace O~2~ Sensors 
-        - [x] Inspect/Replace Catalyst 
+        Top-end overhaul, including the following
 
-    !!! warning "Every 16,000 Hours Service"
-        - [x] Top End Overhaull (Same as 8,000 Hours Service)
-        - [x] Cooling Fan Hub
-        - [x] Crank Case Ventilation System
-        - [x] Oil Coolers
-        - [x] Camshaft, Bearings, Seals, Lifters, Pushrods, Timing Gears
-        - [x] Exhaust Manifold Assembly and Gaskets
-        - [x] Piston and Connecting Rod Assemblies and Cylinder Liners
-        - [x] Fuel Mixer(s)
-        - [x] EPR(s)
-        - [x] Fuel Lock-Off Valve(s)
+        - [x] Cylinder heads.
+        - [x] Rocker arm assemblies.
+        - [x] Thermostats, gaskets and O-rings.
+        - [x] Water pump.
+        - [x] Engine coolant.
+        - [x] Charging alternator.
+        - [x] Throttle body.
+        - [x] Ignition coils and boots.
+        - [x] Inspect and replace O~2~ sensors.
+        - [x] Inspect and replace catalyst.
 
-    !!! warning "Every 24,000 Hours Service"
+    !!! warning "Service every 16,000 hours"
+        - [x] Top-end overhaul (same as 8,000 hours service).
+        - [x] Cooling fan hub.
+        - [x] Crankcase ventilation system.
+        - [x] Oil coolers.
+        - [x] Camshaft, bearings, seals, lifters, pushrods, timing gears.
+        - [x] Exhaust manifold assembly and gaskets.
+        - [x] Piston and connecting rod assemblies, and cylinder liners.
+        - [x] Fuel mixer(s).
+        - [x] EPR(s).
+        - [x] Fuel lock-off valve(s).
 
-        Full Overhaull
+    !!! warning "Service every 24,000 hours"
 
-        - [x] Top End Overhaull (Same as 8,000 Hours Service)
-        - [x] Crankshaft Assembly, Bearings and Seals
-        - [x] Oil Pump
+        Full overhaul
+
+        - [x] Top-end overhaul (same as 8,000 hours service).
+        - [x] Crankshaft assembly, bearings and seals.
+        - [x] Oil pump.
 
 === "22LT Mesa"
-    
+
     !!! note
-        Perform first oil change and comprehensive inspection after the first 500 hours of operation.
+        Perform the first oil change and a complete inspection after the first 500 hours of operation.
 
-    !!! tip "50 Hour Initial Service"
-        - [x] Check for Fluid Leaks
-        - [x] Check Engine Oil Level
-        - [x] Check Engine Coolant Level
-        - [x] Check Engine Oil Pressure
-        - [x] Check Drive Belts for Tension/Cracks/Splits/Glazing
-        - [x] Check/Replace Air Cleaner Filter Element
-        - [x] Check/Replace Engine Oil Filter
-        - [x] Check/Replace Automatic Belt Tensioners
-        - [x] Check Coolant Hoses for Cracks/Breaks/Hardening
-        - [x] Check Fuel Shut-Off Valves for Leaks/Operation
-        - [x] Check Gas Piping/Hoses for Leaks/Damage
-        - [x] Check Air Induction Piping for Leaks
-        - [x] Check Intake Manifold for Vacuum Leaks
-        - [x] Check Exhaust Manifold for Leaks
-        - [x] Check Exhaust Piping for Leaks
-        - [x] Check O~2~ Sensors/Harness for Damage/Performance
-        - [x] Check Catalyst for Mechanical Damage/Performance
-        - [x] Clean Debris from Radiator Core
-        - [x] Measure/Reset as Needed Intake/Exhaust Valve Clearance
-        - [x] Tighten All Hose Clamps on CAC Piping Boots
-        - [x] Drain LPL Vaporizer Oil Build Up (if Installed)
+    !!! tip "Initial service at 50 hours"
+        - [x] Check for fluid leaks.
+        - [x] Check the engine oil level.
+        - [x] Check the engine coolant level.
+        - [x] Check the engine oil pressure.
+        - [x] Check drive belts for tension, cracks, splits, and glazing.
+        - [x] Check and replace air cleaner filter element.
+        - [x] Check and replace engine oil filter.
+        - [x] Check and replace automatic belt tensioners.
+        - [x] Check coolant hoses for cracks, breaks, and hardening.
+        - [x] Check fuel shut-off valves for leaks and operation.
+        - [x] Check gas piping and hoses for leaks and damage.
+        - [x] Check air induction piping for leaks.
+        - [x] Check intake manifold for vacuum leaks.
+        - [x] Check exhaust manifold for leaks.
+        - [x] Check exhaust piping for leaks.
+        - [x] Check O~2~ sensors and harness for damage and performance.
+        - [x] Check catalyst for mechanical damage and performance.
+        - [x] Clean debris from radiator core.
+        - [x] Measure and reset as needed intake and exhaust valve clearance.
+        - [x] Tighten all hose clamps on CAC piping boots.
+        - [x] Drain LPL vaporizer oil buildup (if installed).
 
-    !!! success "Daily/Weekly Checks"
-        - [x] Check for Fluid Leaks
-        - [x] Check Engine Oil Level
-        - [x] Check Engine Coolant Level
-        - [x] Check Engine Oil Pressure
-        - [x] Monitor Oil Pressure                  
-        - [x] Monitor Engine Temperature            
-        - [x] Monitor 12V System                    
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
-        - [x] Check Hoses/Clamps/Pipes/Belts/Harness
+    !!! success "Daily and weekly checks"
+        - [x] Check for fluid leaks.
+        - [x] Check the engine oil level.
+        - [x] Check the engine coolant level.
+        - [x] Check the engine oil pressure.
+        - [x] Monitor oil pressure.
+        - [x] Monitor engine temperature.
+        - [x] Monitor 12 V system.
+        - [x] Monitor the generator phase balance.
+        - [x] Monitor the generator voltage.
+        - [x] Check hoses, clamps, pipes, belts, and harness.
 
-    !!! question "Every 250 Hours Service"
-        - [x] Change Oil & Filter (sample)        
-        - [x] Check Drive Belts for Tension/Cracks/Splits/Glazing
-        - [x] Check/Replace Air Cleaner Filter Element
+    !!! question "Service every 250 hours"
+        - [x] Change oil and filter (sample).
+        - [x] Check drive belts for tension, cracks, splits, and glazing.
+        - [x] Check and replace air cleaner filter element.
 
-    !!! warning "Every 750 Hours Service"
-        - [x] Change Engine Oil
-        - [x] Check/Replace Engine Oil Filter
-        - [x] Check/Replace Automatic Belt Tensioners
-        - [x] Check Coolant Hoses for Cracks/Breaks/Hardening
-        - [x] Check Fuel Shut-Off Valves for Leaks/Operation
-        - [x] Check Gas Piping/Hoses for Leaks/Damage
-        - [x] Check Air Induction Piping for Leaks
-        - [x] Check Intake Manifold for Vacuum Leaks
-        - [x] Check Exhaust Manifold for Leaks
-        - [x] Check Exhaust Piping for Leaks
-        - [x] Check O~2~ Sensors/Harness for Damage/Performance
-        - [x] Check Catalyst for Mechanical Damage/Performance
-        - [x] Clean Debris from Radiator Core
-        - [x] Measure/Reset as Needed Intake/Exhaust Valve Clearance
-        - [x] Tighten All Hose Clamps on CAC Piping Boots
-        - [x] Drain LPL Vaporizer Oil Build Up (if Installed)
-        - [x] Check/Replace Spark Plugs/Cap
-        - [x] Check CCV Filter, Replace if Crank Case Pressure is Above Barometric
+    !!! warning "Service every 750 hours"
+        - [x] Change engine oil.
+        - [x] Check and replace engine oil filter.
+        - [x] Check and replace automatic belt tensioners.
+        - [x] Check coolant hoses for cracks, breaks, and hardening.
+        - [x] Check fuel shut-off valves for leaks and operation.
+        - [x] Check gas piping and hoses for leaks and damage.
+        - [x] Check air induction piping for leaks.
+        - [x] Check intake manifold for vacuum leaks.
+        - [x] Check exhaust manifold for leaks.
+        - [x] Check exhaust piping for leaks.
+        - [x] Check O~2~ sensors and harness for damage and performance.
+        - [x] Check catalyst for mechanical damage and performance.
+        - [x] Clean debris from radiator core.
+        - [x] Measure and reset as needed intake and exhaust valve clearance.
+        - [x] Tighten all hose clamps on CAC piping boots.
+        - [x] Drain LPL vaporizer oil buildup (if installed).
+        - [x] Check and replace spark plugs and cap.
+        - [x] Check the CCV filter. replace it if crankcase pressure is above barometric pressure.
 
-    !!! failure "Every Year Service"
-        - [x] Drain, Flush, & Replace Coolant
-        - [x] Check/Replace O~2~ Sensor
-        - [x] Check/Replace Catalyst
-        - [x] Replace Fan & Water Pump Belts
-        - [x] Replace Ignition Coils & Boots
-        - [x] Replace Throttle Bodies
+    !!! failure "Service every year"
+        - [x] Drain, flush, and replace coolant.
+        - [x] Check and replace O~2~ sensor.
+        - [x] Check and replace catalyst.
+        - [x] Replace fan and water pump belts.
+        - [x] Replace ignition coils and boots.
+        - [x] Replace throttle bodies.
 
-    !!! danger "Every 24,000 Hours (Top End)"
-        - [x] Replace Coolant Pumps
-        - [x] Replace Thermostats, Gaskets, & O-Rings
-        - [x] Replace EPRs
-        - [x] Replace Fuel Lock-off Valves
-        - [x] Replace Cylinder Heads
-        - [x] Replace Rockes Arm Assemblies
-        - [x] Replace Turbocharger Assembly
-        - [x] Replace Crankcase Ventilation Assembly
+    !!! danger "Top-end service at 24,000 hours"
+        - [x] Replace coolant pumps.
+        - [x] Replace thermostats, gaskets, and O-rings.
+        - [x] Replace eprs.
+        - [x] Replace fuel lock-off valves.
+        - [x] Replace cylinder heads.
+        - [x] Replace rocker arm assemblies.
+        - [x] Replace turbocharger assembly.
+        - [x] Replace crankcase ventilation assembly.
 
-    !!! example "Every 48,000 Hours (Overhaul)"
-        - [x] Replace Piston/Connecting Rod Assemblies & Cylinder Liners
-        - [x] Replace Crankshaft Assembly, Bearings, & Seals
-        - [x] Replace Camshaft/Bearings/Seals/Lifters/Pushrods/Timing Gears
-        - [x] Replace Oil Pump
-        - [x] Replace Exhaust Manifold Assembly & Gaskets
-        - [x] Replace Front Accessory Drive Pulleys, Idlers, & Seals
+    !!! example "Overhaul at 48,000 hours"
+        - [x] Replace piston and connecting rod assemblies, and cylinder liners.
+        - [x] Replace crankshaft assembly, bearings, and seals.
+        - [x] Replace camshaft, bearings, seals, lifters, pushrods, and timing gears.
+        - [x] Replace oil pump.
+        - [x] Replace exhaust manifold assembly and gaskets.
+        - [x] Replace front accessory drive pulleys, idlers, and seals.
