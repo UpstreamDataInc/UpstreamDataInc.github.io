@@ -78,3 +78,12 @@ link = "mailto:support@upstreamdata.com"
 icon = "lucide/globe"
 name = "Website"
 link = "upstreamdata.com"
+
+[project.theme.icon.admonition]
+tip = "lucide/wrench"
+success = "lucide/wrench"
+question = "lucide/wrench"
+warning = "lucide/wrench"
+failure = "lucide/wrench"
+danger = "lucide/wrench"
+example = "lucide/wrench"

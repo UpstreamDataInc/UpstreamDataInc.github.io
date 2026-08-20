@@ -55,14 +55,13 @@ order: 2
     !!! note
         Perform first oil change and comprehensive inspection after the first 500 hours of operation.
 
-    !!! tip "50 Hour Initial Service"
-        
+    !!! tip maintenance-inital "50 Hour Initial Service"
         - [x] Check Engine Oil Level
         - [x] Check Engine Coolant Level
         - [x] Check Engine Oil Pressure
         - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! success "Daily/Weekly Checks"
+    !!! success maintenance-daily maintenance-weekly "Daily/Weekly Checks"
         - [x] Check for Fluid Leaks
         - [x] Check Engine Oil Level
         - [x] Check Engine Coolant Level
@@ -74,7 +73,7 @@ order: 2
         - [x] Monitor Gen Voltage                   
         - [x] Check Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! question "Every 2,500 Hours Service"
+    !!! question maintenance-interval "Every 2,500 Hours Service"
         - [x] Change Oil & Filter (sample)        
         - [x] Check/Replace Spark Plugs/Cap         
         - [x] Check/Replace Rotor                   
@@ -85,17 +84,17 @@ order: 2
         - [x] Check Ignition System                 
         - [x] Inspect Water Pump                    
 
-    !!! warning "Every 6 Months Service"
+    !!! warning maintenance-monthly "Every 6 Months Service"
         - [x] Check/Replace Air Filter
         - [x] Check Coolant Condition (Sample)
         - [x] Test Batteries/Alternator
 
-    !!! failure "Every 2 Years Service"
+    !!! failure maintenance-yearly "Every 2 Years Service"
         - [x] Replace Coolant
 
 === "6.7LT PSI"
 
-    !!! tip "Every Service/Daily/Weekly Checks"
+    !!! success maintenance-daily maintenance-weekly "Every Service/Daily/Weekly Checks"
         - [x] Check for Fluid Leaks
         - [x] Check Engine Oil Level
         - [x] Check Engine Coolant Level
@@ -109,14 +108,14 @@ order: 2
         - [x] Monitor Gen Voltage                   
         - [x] Check Hoses/Clamps/Pipes/Belts/Electrical Harness
 
-    !!! success "500 Hour Initial Service"
+    !!! tip maintenance-inital "500 Hour Initial Service"
         - [x] Change Engine Oil and Filter(s)
         - [x] Adjust Valve Lash 
         - [x] Check Engine Coolant Level
         - [x] Check Engine Oil Pressure
         - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! success "Every 750 Hours Service"
+    !!! question maintenance-interval "Every 750 Hours Service"
         - [x] Perform Every Service Checks (Pre and Post Shutdown)
         - [x] Change Oil & Filter (Oil Sample Recommended)
         - [x] Replace Spark Plugs
@@ -125,10 +124,7 @@ order: 2
         - [x] Check/Replace Air Filter
         - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! warning "Every 8,000 Hours Service"
-
-        Top End Overhaull, Including The Following      
-
+    !!! warning maintenance-major "Every 8,000 Hours Service"
         - [x] Cylinder Heads
         - [x] Rocker Arm Assemblies 
         - [x] Thermostats, Gaskets and O-Rings 
@@ -140,8 +136,8 @@ order: 2
         - [x] Inspect/Replace O~2~ Sensors 
         - [x] Inspect/Replace Catalyst 
 
-    !!! warning "Every 16,000 Hours Service"
-        - [x] Top End Overhaull (Same as 8,000 Hours Service)
+    !!! danger maintenance-major "Every 16,000 Hours Service"
+        - [x] Top End Overhaul (Same as 8,000 Hours Service)
         - [x] Cooling Fan Hub
         - [x] Crank Case Ventilation System
         - [x] Oil Coolers
@@ -152,11 +148,8 @@ order: 2
         - [x] EPR(s)
         - [x] Fuel Lock-Off Valve(s)
 
-    !!! warning "Every 24,000 Hours Service"
-
-        Full Overhaull
-
-        - [x] Top End Overhaull (Same as 8,000 Hours Service)
+    !!! example maintenance-major "Every 24,000 Hours Service"
+        - [x] Top End Overhaul (Same as 8,000 Hours Service)
         - [x] Crankshaft Assembly, Bearings and Seals
         - [x] Oil Pump
 
@@ -165,7 +158,7 @@ order: 2
     !!! note
         Perform first oil change and comprehensive inspection after the first 500 hours of operation.
 
-    !!! tip "50 Hour Initial Service"
+    !!! tip maintenance-inital "50 Hour Initial Service"
         - [x] Check for Fluid Leaks
         - [x] Check Engine Oil Level
         - [x] Check Engine Coolant Level
@@ -188,7 +181,7 @@ order: 2
         - [x] Tighten All Hose Clamps on CAC Piping Boots
         - [x] Drain LPL Vaporizer Oil Build Up (if Installed)
 
-    !!! success "Daily/Weekly Checks"
+    !!! success maintenance-daily maintenance-weekly "Daily/Weekly Checks"
         - [x] Check for Fluid Leaks
         - [x] Check Engine Oil Level
         - [x] Check Engine Coolant Level
@@ -200,12 +193,12 @@ order: 2
         - [x] Monitor Gen Voltage                   
         - [x] Check Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! question "Every 250 Hours Service"
+    !!! question maintenance-interval "Every 250 Hours Service"
         - [x] Change Oil & Filter (sample)        
         - [x] Check Drive Belts for Tension/Cracks/Splits/Glazing
         - [x] Check/Replace Air Cleaner Filter Element
 
-    !!! warning "Every 750 Hours Service"
+    !!! warning maintenance-interval "Every 750 Hours Service"
         - [x] Change Engine Oil
         - [x] Check/Replace Engine Oil Filter
         - [x] Check/Replace Automatic Belt Tensioners
@@ -225,7 +218,7 @@ order: 2
         - [x] Check/Replace Spark Plugs/Cap
         - [x] Check CCV Filter, Replace if Crank Case Pressure is Above Barometric
 
-    !!! failure "Every Year Service"
+    !!! failure maintenance-yearly "Every Year Service"
         - [x] Drain, Flush, & Replace Coolant
         - [x] Check/Replace O~2~ Sensor
         - [x] Check/Replace Catalyst
@@ -234,7 +227,7 @@ order: 2
         - [x] Replace Throttle Bodies
         - [x] Replace Crankcase Ventilation Impacter
 
-    !!! danger "Every 24,000 Hours (Top End)"
+    !!! danger maintenance-major "Every 24,000 Hours (Top End)"
         - [x] Replace Coolant Pumps
         - [x] Replace Thermostats, Gaskets, & O-Rings
         - [x] Replace EPRs
@@ -244,7 +237,7 @@ order: 2
         - [x] Replace Turbocharger Assembly
         - [x] Replace Crankcase Ventilation Assembly
 
-    !!! example "Every 48,000 Hours (Overhaul)"
+    !!! example maintenance-overhaul "Every 48,000 Hours (Overhaul)"
         - [x] Replace Piston/Connecting Rod Assemblies & Cylinder Liners
         - [x] Replace Crankshaft Assembly, Bearings, & Seals
         - [x] Replace Camshaft/Bearings/Seals/Lifters/Pushrods/Timing Gears
@@ -254,7 +247,7 @@ order: 2
 
 === "13LT PSI"
     
-    !!! tip "Every Service/Daily/Weekly Checks"
+    !!! success maintenance-daily maintenance-weekly "Every Service/Daily/Weekly Checks"
         - [x] Check for Fluid Leaks
         - [x] Check Engine Oil Level
         - [x] Check Engine Coolant Level
@@ -268,14 +261,14 @@ order: 2
         - [x] Monitor Gen Voltage                   
         - [x] Check Hoses/Clamps/Pipes/Belts/Electrical Harness
 
-    !!! success "500 Hour Initial Service"
+    !!! tip maintenance-inital "500 Hour Initial Service"
         - [x] Change Engine Oil and Filter(s)
         - [x] Adjust Valve Lash 
         - [x] Check Engine Coolant Level
         - [x] Check Engine Oil Pressure
         - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! success "Every 750 Hours Service"
+    !!! question maintenance-interval "Every 750 Hours Service"
         - [x] Perform Every Service Checks (Pre and Post Shutdown)
         - [x] Change Oil & Filter (Oil Sample Recommended)
         - [x] Replace Spark Plugs
@@ -284,10 +277,7 @@ order: 2
         - [x] Check/Replace Air Filter
         - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! warning "Every 8,000 Hours Service"
-
-        Top End Overhaull, Including The Following      
-
+    !!! warning maintenance-major "Every 8,000 Hours Service"
         - [x] Cylinder Heads
         - [x] Rocker Arm Assemblies 
         - [x] Thermostats, Gaskets and O-Rings 
@@ -299,8 +289,8 @@ order: 2
         - [x] Inspect/Replace O~2~ Sensors 
         - [x] Inspect/Replace Catalyst 
 
-    !!! warning "Every 16,000 Hours Service"
-        - [x] Top End Overhaull (Same as 8,000 Hours Service)
+    !!! danger maintenance-major "Every 16,000 Hours Service"
+        - [x] Top End Overhaul (Same as 8,000 Hours Service)
         - [x] Cooling Fan Hub
         - [x] Crank Case Ventilation System
         - [x] Oil Coolers
@@ -311,11 +301,8 @@ order: 2
         - [x] EPR(s)
         - [x] Fuel Lock-Off Valve(s)
 
-    !!! warning "Every 24,000 Hours Service"
-
-        Full Overhaull
-
-        - [x] Top End Overhaull (Same as 8,000 Hours Service)
+    !!! example maintenance-major "Every 24,000 Hours Service"
+        - [x] Top End Overhaul (Same as 8,000 Hours Service)
         - [x] Crankshaft Assembly, Bearings and Seals
         - [x] Oil Pump
 
@@ -324,7 +311,7 @@ order: 2
     !!! note
         Perform first oil change and comprehensive inspection after the first 500 hours of operation.
 
-    !!! tip "50 Hour Initial Service"
+    !!! tip maintenance-inital "50 Hour Initial Service"
         - [x] Check for Fluid Leaks
         - [x] Check Engine Oil Level
         - [x] Check Engine Coolant Level
@@ -347,7 +334,7 @@ order: 2
         - [x] Tighten All Hose Clamps on CAC Piping Boots
         - [x] Drain LPL Vaporizer Oil Build Up (if Installed)
 
-    !!! success "Daily/Weekly Checks"
+    !!! success maintenance-daily maintenance-weekly "Daily/Weekly Checks"
         - [x] Check for Fluid Leaks
         - [x] Check Engine Oil Level
         - [x] Check Engine Coolant Level
@@ -359,12 +346,12 @@ order: 2
         - [x] Monitor Gen Voltage                   
         - [x] Check Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! question "Every 250 Hours Service"
+    !!! question maintenance-interval "Every 250 Hours Service"
         - [x] Change Oil & Filter (sample)        
         - [x] Check Drive Belts for Tension/Cracks/Splits/Glazing
         - [x] Check/Replace Air Cleaner Filter Element
 
-    !!! warning "Every 750 Hours Service"
+    !!! warning maintenance-interval "Every 750 Hours Service"
         - [x] Change Engine Oil
         - [x] Check/Replace Engine Oil Filter
         - [x] Check/Replace Automatic Belt Tensioners
@@ -384,7 +371,7 @@ order: 2
         - [x] Check/Replace Spark Plugs/Cap
         - [x] Check CCV Filter, Replace if Crank Case Pressure is Above Barometric
 
-    !!! failure "Every Year Service"
+    !!! failure maintenance-yearly "Every Year Service"
         - [x] Drain, Flush, & Replace Coolant
         - [x] Check/Replace O~2~ Sensor
         - [x] Check/Replace Catalyst
@@ -392,7 +379,7 @@ order: 2
         - [x] Replace Ignition Coils & Boots
         - [x] Replace Throttle Bodies
 
-    !!! danger "Every 24,000 Hours (Top End)"
+    !!! danger maintenance-major "Every 24,000 Hours (Top End)"
         - [x] Replace Coolant Pumps
         - [x] Replace Thermostats, Gaskets, & O-Rings
         - [x] Replace EPRs
@@ -402,7 +389,7 @@ order: 2
         - [x] Replace Turbocharger Assembly
         - [x] Replace Crankcase Ventilation Assembly
 
-    !!! example "Every 48,000 Hours (Overhaul)"
+    !!! example maintenance-overhaul "Every 48,000 Hours (Overhaul)"
         - [x] Replace Piston/Connecting Rod Assemblies & Cylinder Liners
         - [x] Replace Crankshaft Assembly, Bearings, & Seals
         - [x] Replace Camshaft/Bearings/Seals/Lifters/Pushrods/Timing Gears

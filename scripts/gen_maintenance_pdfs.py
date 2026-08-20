@@ -3,7 +3,9 @@
 
 from __future__ import annotations
 
+import os
 import re
+import subprocess
 from copy import deepcopy
 from dataclasses import dataclass
 from functools import lru_cache
@@ -35,6 +37,23 @@ OUTPUT = ROOT / "docs" / "downloads" / "maintenance"
 ICON_DIRECTORY = Path(zensical.__file__).parent / "templates" / ".icons" / "lucide"
 ICON_VERTICAL_OFFSET = 2
 
+
+def source_revision() -> str:
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "--short=8", "HEAD"],
+            cwd=ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        return result.stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        return os.environ.get("GITHUB_SHA", "unknown")[:8]
+
+
+SOURCE_REVISION = source_revision()
+
 ENGINE_FILES = {
     "5.7L GM": "5-7l-gm.pdf",
     "6.7LT PSI": "6-7lt-psi.pdf",
@@ -65,7 +84,8 @@ ICON_NAMES = {
     "failure": "octagon-alert",
     "danger": "zap",
     "example": "flask-conical",
-    "task": "circle-check-big",
+    "maintenance": "wrench",
+    "task": "square",
 }
 
 
@@ -78,6 +98,7 @@ class ContentItem:
 @dataclass(frozen=True)
 class Admonition:
     kind: str
+    icon_kind: str
     title: str
     content: tuple[ContentItem, ...]
 
@@ -137,8 +158,13 @@ def inline_markup(element: ET.Element) -> str:
 
 
 def parse_admonition(element: ET.Element) -> Admonition:
-    classes = class_names(element)
+    classes = element.attrib.get("class", "").split()
     kind = next((name for name in classes if name != "admonition"), "note")
+    icon_kind = (
+        "maintenance"
+        if any(name.startswith("maintenance-") for name in classes)
+        else kind
+    )
     title = kind.title()
     content: list[ContentItem] = []
 
@@ -152,7 +178,7 @@ def parse_admonition(element: ET.Element) -> Admonition:
                 item_kind = "task" if "task-list-item" in class_names(item) else "bullet"
                 content.append(ContentItem(item_kind, inline_markup(item)))
 
-    return Admonition(kind, title, tuple(content))
+    return Admonition(kind, icon_kind, title, tuple(content))
 
 
 def parse_tab_set(tab_set: ET.Element) -> dict[str, tuple[Admonition, ...]]:
@@ -302,12 +328,12 @@ def admonition_table(admonition: Admonition, available_width: float, style: dict
     accent = HexColor(accent_hex)
     background = HexColor(background_hex)
     rows: list[list[object]] = [
-        [status_icon(admonition.kind, accent_hex), Paragraph(escape(admonition.title), style["box_title"])],
+        [status_icon(admonition.icon_kind, accent_hex), Paragraph(escape(admonition.title), style["box_title"])],
     ]
 
     for item in admonition.content:
         if item.kind == "task":
-            icon: object = status_icon("task", "#00b85c", 12)
+            icon: object = status_icon("task", "#6b7178", 12)
         elif item.kind == "bullet":
             icon = Paragraph("&#8226;", style["box_body"])
         else:
@@ -320,6 +346,7 @@ def admonition_table(admonition: Admonition, available_width: float, style: dict
         hAlign="LEFT",
         splitByRow=1,
         repeatRows=1,
+        cornerRadii=[6, 6, 6, 6],
     )
     commands: list[tuple] = [
         ("BACKGROUND", (0, 0), (-1, -1), background),
@@ -357,7 +384,11 @@ def draw_page_frame(canvas, document, engine: str) -> None:
     canvas.line(document.leftMargin, 0.42 * inch, width - document.rightMargin, 0.42 * inch)
     canvas.setFillColor(HexColor("#6b7178"))
     canvas.setFont("Helvetica", 7)
-    canvas.drawString(document.leftMargin, 0.25 * inch, "2026 / UPSTREAM DATA INC.")
+    canvas.drawString(
+        document.leftMargin,
+        0.25 * inch,
+        f"2026 / UPSTREAM DATA INC. / REV {SOURCE_REVISION}",
+    )
     canvas.drawRightString(width - document.rightMargin, 0.25 * inch, f"Page {document.page}")
     canvas.restoreState()
 

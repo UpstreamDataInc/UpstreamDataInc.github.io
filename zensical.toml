@@ -99,6 +99,15 @@ name = "Switch to light mode"
 text = "Inter"
 code = "Jetbrains Mono"
 
+[project.theme.icon.admonition]
+tip = "lucide/wrench"
+success = "lucide/wrench"
+question = "lucide/wrench"
+warning = "lucide/wrench"
+failure = "lucide/wrench"
+danger = "lucide/wrench"
+example = "lucide/wrench"
+
 [project.extra]
 social = [
     { icon = "lucide/mail", name = "Contact Support", link = "mailto:support@upstreamdata.com" },
