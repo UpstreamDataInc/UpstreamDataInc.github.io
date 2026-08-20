@@ -3,23 +3,25 @@ order: 1
 ---
 
 
-# Initial Setup
+# Loadcenters
 
-## Receiving
+Use this guide to receive, place, commission, connect, and start an Upstream Data loadcenter. Model-specific instructions are identified for Hash Hut and Hash Generator loadcenters.
 
-!!! tip "Receiving the building"
+## Receiving and placement
 
-    - Remove shipping protection from the outside of the building
-    - Ensure there is nothing obstructing the exhaust dampers
-    - Ensure the intakes can be opened
-    - Ensure the filters are free of debris
-    - Check for any damage to the exterior of the building
+!!! tip "Receiving the loadcenter"
+
+    - Remove shipping protection from the outside of the loadcenter.
+    - Ensure nothing obstructs the exhaust dampers.
+    - Ensure the air intakes can be opened.
+    - Ensure the filters are free of debris.
+    - Check the exterior of the loadcenter for shipping damage.
 
 !!! tip "Placement Recommendations"
 
-    - Orient the building parallel to prevailing wind directions for optimal performance.
-    - Place the unit on piles or raised framework for improved cooling.
-    - When placing multiple loadcenters near each other, keep at least 8–10ft between outside walls.
+    - Orient the loadcenter parallel to prevailing wind directions for optimal performance.
+    - Place the loadcenter on piles or a raised framework for improved cooling.
+    - When placing multiple loadcenters near each other, keep at least 8–10 ft between their exterior walls.
 
 ## Grounding
 
@@ -60,8 +62,8 @@ These shrouds should be folded out, and screwed in place with Tek screws prior t
         away from the slider. Screw these to the casing to secure them.
 
         !!! note
-            Some building have 4 deflectors per shroud, other have 5.
-            Split the deflectors up as needed to ensure each shroud has the same amount of deflectors.
+            Some loadcenters have four deflectors per shroud; others have five.
+            Divide the deflectors evenly so each shroud has the same number.
 
     5. Insert the heat deflector slider.
  
@@ -70,7 +72,7 @@ These shrouds should be folded out, and screwed in place with Tek screws prior t
         Deflector Assembly Steps
         ///
 
-    6. Attach the shrouds to the building, with the top shroud deflectors facing up, and the bottom deflectors facing down.
+    6. Attach the shrouds to the loadcenter, with the upper-shroud deflectors facing up and the lower-shroud deflectors facing down.
 
         ![Deflector attachment](images/attaching-deflectors.png){ .fix-png width="20%" }
         /// caption
@@ -78,7 +80,7 @@ These shrouds should be folded out, and screwed in place with Tek screws prior t
         ///
 
 
-## Installing Miners
+## Miner installation
 
 Your loadcenter may come with laser cut inserts, depending on what type of miners you are using.
 
@@ -90,7 +92,7 @@ Miner types which need inserts:
 - [x] Canaan Avalonminer
 - [x] Other (Contact Us)
 
-Before installing miners, place the inserts into the shelves, with the metal flanges facing toward the outside of the building.
+Before installing miners, place the inserts into the shelves with the metal flanges facing the loadcenter's exterior wall.
 
 ![Miner inserts](images/inserts.svg){ .fix-png width="50%" }
 /// caption
@@ -124,11 +126,11 @@ LoadSync(tm) should be powered via a UPS, which is included inside the loadcente
     3. Connect the other end of the cables to LoadSync(tm), one to the bottom of the panel, the other to the exposed cable end.
 
 !!! warning "Rebooting LoadSync(tm)"
-    Shutting off power to the unit **will not** properly reboot LoadSync(tm), as it runs off the UPS (Backup Battery). To correctly reboot LoadSync(tm), shut off the UPS or unplug all systems from the UPS for at least 10 seconds.
+    Shutting off power to the loadcenter **will not** properly reboot LoadSync(tm), as it runs off the UPS (backup battery). To correctly reboot LoadSync(tm), shut off the UPS or unplug all systems from the UPS for at least 10 seconds.
 
 For software configuration and remote access, see the [LoadSync Guide](loadsync.md).
 
-## Internet
+## Network connection
 
 The easiest way to connect internet to a loadcenter is with Starlink.
 
@@ -161,9 +163,9 @@ Internet is routed in via a port on the top of the LoadSync(tm) panel.
         4. Connect the small end of the coax adaptor cable to the `main` port on the modem.
         5. Connect the large end of the coax adaptor cable to the lightning arrestor, mounted to the wall.
         6. Connect the large coax cable to the other end of the lightning arrestor.
-        7. Route the large coax cable out of the building using the provided 1" nipple on the wall.
+        7. Route the large coax cable out of the loadcenter using the provided 1" nipple on the wall.
         8. Attach the other end of the large coax cable to the provided antenna.
-        9. Mount the antenna on the mast, and mount the mast to the building.
+        9. Mount the antenna on the mast, and mount the mast to the loadcenter.
 
         !!! tip "Antenna Mounting"
             You may need to connect the cable to the antenna before mounting it, depending on the height of the mast.
@@ -194,9 +196,9 @@ Internet is routed in via a port on the top of the LoadSync(tm) panel.
         !!! warning
             After changing the subnet, you will need to power down and power up the loadcenter so that the miners and other IoT devices can fetch their updated IP's from the DHCP server.
 
-## Startup
+## Startup and loading
 
-=== "Hash Huts"
+=== "Hash Hut loadcenters"
 
     !!! warning "Prior to startup"
         
@@ -215,10 +217,10 @@ Internet is routed in via a port on the top of the LoadSync(tm) panel.
 
         Ensure the main circuit breaker is off prior to startup.
 
-        1. Turn on the PDU and auxiliary breakers, located inside the main panel at the rear of the building.
-        2. Turn on the breakers on the inside of the LC panel(s), located inside the building.
+        1. Turn on the PDU and auxiliary breakers inside the main panel at the rear of the loadcenter.
+        2. Turn on the breakers on the interior of the LC panel(s).
         3. Turn on the breakers on the exterior of the LC panel(s).
-        4. Turn on the main breaker on the exterior of the main panel at the rear of the building.
+        4. Turn on the main breaker on the exterior of the main panel at the rear of the loadcenter.
 
     !!! tip "Adding Load"
 
@@ -229,9 +231,9 @@ Internet is routed in via a port on the top of the LoadSync(tm) panel.
         4. Continue downstream of the main breakers.
         5. **Make sure all fan switches located on the fan pods are turned on.**
 
-        V2/V3 models come equipped with an auxiliary panel housing breakers for lights, receptacles, VFD, and IPC power. Turn the breakers on, close the door to the panel, and turn the main handle to the on position. All equipment inside the unit will now be live.
+        V2/V3 models come equipped with an auxiliary panel housing breakers for lights, receptacles, VFD, and IPC power. Turn the breakers on, close the door to the panel, and turn the main handle to the on position. All equipment inside the loadcenter will now be live.
 
-=== "Hash Generators"
+=== "Hash Generator loadcenters"
     
     !!! warning "Prior to startup"
 
@@ -240,7 +242,7 @@ Internet is routed in via a port on the top of the LoadSync(tm) panel.
         - Check for any loose or damaged components that may have occurred during shipping.
         - Uncap and assemble the exhaust.
         - Ensure that the correct size gas line is being used and has been inspected and approved for use.
-        - Connect the gas line to the gas intake on the outside of the building.
+        - Connect the gas line to the gas intake on the exterior of the loadcenter.
         - Check that input pressure is correct (5PSI minimum to 25PSI maximum).
         - Ensure all manifolds are correctly set.
         - Check coolant levels and add 50/50 premix as required.
@@ -285,13 +287,16 @@ Internet is routed in via a port on the top of the LoadSync(tm) panel.
         4. Continue downstream of the main breakers.
         5. **Make sure all fan switches located on the fan pods are turned on.**
 
-        V2/V3 models come equipped with an auxiliary panel housing breakers for lights, receptacles, VFD, and IPC power. Turn the breakers on, close the door to the panel, and turn the main handle to the on position. All equipment inside the unit will now be live.
+        V2/V3 models come equipped with an auxiliary panel housing breakers for lights, receptacles, VFD, and IPC power. Turn the breakers on, close the door to the panel, and turn the main handle to the on position. All equipment inside the loadcenter will now be live.
 
     !!! info "Need assistance with startup?"
         If you would like an Upstream mechanic to help with the startup process over the phone, please [contact us](contact.md) to schedule on-call help.
 
-## Contact Us
+    !!! info "Parallel generator packages"
+        Packages using DSE 8610 synchronizing controllers require a specific breaker line-up and startup sequence. Follow the [Parallel Generator Units](parallel-units.md) procedure before operating them.
 
-Get in contact with us using the info on the [`Contact Us`](contact.md) page
+## Support
+
+For technical assistance, replacement filters, commissioning support, or service, [contact Upstream Data](contact.md).
 
 *[UPS]: Uninterruptible Power Supply

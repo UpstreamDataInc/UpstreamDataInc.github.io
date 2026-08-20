@@ -14,6 +14,7 @@ BUILD_CONFIG = ROOT / "zensical.toml"
 # Top-level pages in desired display order (paths relative to docs/)
 STATIC_NAV = [
     "index.md",
+    "parallel-units.md",
     "maintenance.md",
     "loadsync.md",
     "contact.md",
