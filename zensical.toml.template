@@ -8,6 +8,7 @@ Copyright &copy; 2026 Upstream Data Inc
 """
 use_directory_urls = true
 extra_css = ["stylesheets/images.css"]
+extra_javascript = ["javascripts/pdf-download.js"]
 markdown_extensions = [
     "attr_list",
     "admonition",

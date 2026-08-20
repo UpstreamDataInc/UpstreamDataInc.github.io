@@ -20,8 +20,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install zensical tomli-w
+      - run: pip install "zensical>=0.0.20,<0.0.21" "tomli-w>=1.0" "reportlab>=4.4.4,<5.0.0" "svglib>=2.1.0,<3.0.0"
       - run: python scripts/gen_nav.py
+      - run: python scripts/gen_maintenance_pdfs.py
       - run: zensical build --clean
       - uses: actions/upload-pages-artifact@v4
         with:

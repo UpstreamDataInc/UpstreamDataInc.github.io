@@ -8,6 +8,9 @@ use_directory_urls = true
 extra_css = [
     "stylesheets/images.css",
 ]
+extra_javascript = [
+    "javascripts/pdf-download.js",
+]
 markdown_extensions = [
     "attr_list",
     "admonition",
@@ -34,6 +37,22 @@ nav = [
     "contact.md",
     { Changelog = [
     "changelogs/loadsync/index.md",
+    "changelogs/loadsync/v0.3.0.md",
+    "changelogs/loadsync/v0.3.1.md",
+    "changelogs/loadsync/v0.3.2.md",
+    "changelogs/loadsync/v0.3.3.md",
+    "changelogs/loadsync/v0.3.4.md",
+    "changelogs/loadsync/v0.4.0.md",
+    "changelogs/loadsync/v0.4.1.md",
+    "changelogs/loadsync/v0.5.0.md",
+    "changelogs/loadsync/v0.5.1.md",
+    "changelogs/loadsync/v0.5.2.md",
+    "changelogs/loadsync/v0.5.3.md",
+    "changelogs/loadsync/v0.6.0.md",
+    "changelogs/loadsync/v0.6.1.md",
+    "changelogs/loadsync/v0.6.2.md",
+    "changelogs/loadsync/v0.6.3.md",
+    "changelogs/loadsync/v0.6.4.md",
 ] },
 ]
 

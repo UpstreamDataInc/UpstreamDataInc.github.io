@@ -9,3 +9,9 @@
 .md-typeset table:not([class]) {
     display: table;
 }
+
+.pdf-download {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    cursor: pointer;
+}

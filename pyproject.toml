@@ -4,9 +4,11 @@ version = "0.1.0"
 description = "Documentation for Upstream Data Products"
 authors = []
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<4"
 dependencies = [
     "pre-commit (>=4.5.1,<5.0.0)",
+    "reportlab (>=4.4.4,<5.0.0)",
+    "svglib (>=2.1.0,<3.0.0)",
     "tomli-w>=1.0",
     "zensical (>=0.0.20,<0.0.21)"
 ]
