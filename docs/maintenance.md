@@ -73,7 +73,7 @@ order: 3
         - [x] Monitor Gen Voltage                   
         - [x] Check Hoses/Clamps/Pipes/Belts/Harness
 
-    !!! question maintenance-interval "Every 2,500 Hours Service"
+    !!! question maintenance-interval "Every 1,440 Hours Service"
         - [x] Change Oil & Filter (sample)        
         - [x] Check/Replace Spark Plugs/Cap         
         - [x] Check/Replace Rotor                   
