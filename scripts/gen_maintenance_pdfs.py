@@ -108,6 +108,7 @@ class MaintenanceDocument:
     title: str
     introduction: str
     fluids: dict[str, tuple[Admonition, ...]]
+    shared_checklist_admonitions: tuple[Admonition, ...]
     checklists: dict[str, tuple[Admonition, ...]]
 
 
@@ -234,10 +235,16 @@ def parse_document(source_path: Path) -> MaintenanceDocument:
     if len(tab_sets) != 2:
         raise ValueError(f"Expected two Maintenance tab sets, found {len(tab_sets)}")
 
+    between_tabs = children[children.index(tab_sets[0]) + 1 : children.index(tab_sets[1])]
     document = MaintenanceDocument(
         title="".join(title_element.itertext()).strip(),
         introduction=inline_markup(intro_element) if intro_element is not None else "",
         fluids=parse_tab_set(tab_sets[0]),
+        shared_checklist_admonitions=tuple(
+            parse_admonition(child)
+            for child in between_tabs
+            if "admonition" in class_names(child)
+        ),
         checklists=parse_tab_set(tab_sets[1]),
     )
 
@@ -429,11 +436,10 @@ def generate_pdf(document: MaintenanceDocument, engine: str, destination: Path) 
         story.extend([admonition_table(admonition, available_width, style), Spacer(1, 7)])
 
     checklist = document.checklists[engine]
-    first_interval = [
-        Paragraph("Engine Maintenance Checklist", style["heading"]),
-        interval_table(checklist[0]),
-        Spacer(1, 7),
-    ]
+    first_interval = [Paragraph("Engine Maintenance Checklist", style["heading"])]
+    for admonition in document.shared_checklist_admonitions:
+        first_interval.extend([interval_table(admonition), Spacer(1, 7)])
+    first_interval.extend([interval_table(checklist[0]), Spacer(1, 7)])
     story.append(KeepTogether(first_interval))
     for admonition in checklist[1:]:
         story.append(

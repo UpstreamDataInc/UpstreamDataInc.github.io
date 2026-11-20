@@ -50,6 +50,9 @@ order: 3
 
 ## Engine Maintenance Checklist
 
+!!! warning "Electrical Defects"
+    If you find an electrical defect, stop the generator set immediately. Repair the defect before you put the generator set back into service.
+
 === "5.7L GM"
     
     !!! note
@@ -68,10 +71,14 @@ order: 3
         - [x] Check Engine Oil Pressure
         - [x] Monitor Oil Pressure                  
         - [x] Monitor Engine Temperature            
-        - [x] Monitor 12V System                    
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
+        - [x] Monitor the VDC System and Voltage
+        - [x] Monitor Generator Output Voltage and Phase Balance
+        - [x] Check for Alarms on the DSE or DynaGen Controller
         - [x] Check Hoses/Clamps/Pipes/Belts/Harness
+
+    !!! question maintenance-interval "Every 750 Hours Service"
+        - [x] Visually Examine the Panels and Wiring for Burned, Melted, or Loose Connections
+        - [x] Do a Thermal Inspection of the Panels and Wiring for Hot Connections
 
     !!! question maintenance-interval "Every 1,440 Hours Service"
         - [x] Change Oil & Filter (sample)        
@@ -89,6 +96,13 @@ order: 3
         - [x] Check Coolant Condition (Sample)
         - [x] Test Batteries/Alternator
 
+    !!! failure maintenance-yearly "Every Year Service"
+        - [x] Visually Examine All Wiring and Connections for Damage or Wear
+        - [x] Do a Thermal Inspection of All Wiring and Connections for Hot Spots
+        - [x] If the Unit Has a DSE Controller Panel, Check for Loose Connections in the Panel. Tighten Loose Connections
+        - [x] Check the Generator Output Terminal Nuts. If a Nut Is Loose, Tighten It Only Until It Is Tight
+        - [x] Check the Battery Terminals and Ground Connections. Tighten Loose Terminals and Connections
+
     !!! failure maintenance-yearly "Every 2 Years Service"
         - [x] Replace Coolant
 
@@ -102,10 +116,9 @@ order: 3
         - [x] Monitor Engine Coolant Temperature            
         - [x] Monitor Battery Charging Voltage
         - [x] Monitor IAT/MAT (Intake Air Temp, Manifold Air Temp)
-        - [x] Monitor Gen Output Voltage
-        - [x] Monitor Gen Voltage 
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
+        - [x] Monitor the VDC System and Voltage
+        - [x] Monitor Generator Output Voltage and Phase Balance
+        - [x] Check for Alarms on the DSE or DynaGen Controller
         - [x] Check Hoses/Clamps/Pipes/Belts/Electrical Harness
 
     !!! tip maintenance-inital "500 Hour Initial Service"
@@ -123,6 +136,15 @@ order: 3
         - [x] Check/Adjust Valve Lash        
         - [x] Check/Replace Air Filter
         - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
+        - [x] Visually Examine the Panels and Wiring for Burned, Melted, or Loose Connections
+        - [x] Do a Thermal Inspection of the Panels and Wiring for Hot Connections
+
+    !!! failure maintenance-yearly "Every Year Service"
+        - [x] Visually Examine All Wiring and Connections for Damage or Wear
+        - [x] Do a Thermal Inspection of All Wiring and Connections for Hot Spots
+        - [x] If the Unit Has a DSE Controller Panel, Check for Loose Connections in the Panel. Tighten Loose Connections
+        - [x] Check the Generator Output Terminal Nuts. If a Nut Is Loose, Tighten It Only Until It Is Tight
+        - [x] Check the Battery Terminals and Ground Connections. Tighten Loose Terminals and Connections
 
     !!! warning maintenance-major "Every 8,000 Hours Service"
         - [x] Cylinder Heads
@@ -188,9 +210,9 @@ order: 3
         - [x] Check Engine Oil Pressure
         - [x] Monitor Oil Pressure                  
         - [x] Monitor Engine Temperature            
-        - [x] Monitor 12V System                    
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
+        - [x] Monitor the 12 V DC System Voltage
+        - [x] Monitor Generator Output Voltage and Phase Balance
+        - [x] Check for Alarms on the DSE or DynaGen Controller
         - [x] Check Hoses/Clamps/Pipes/Belts/Harness
 
     !!! question maintenance-interval "Every 250 Hours Service"
@@ -217,6 +239,8 @@ order: 3
         - [x] Drain LPL Vaporizer Oil Build Up (if Installed)
         - [x] Check/Replace Spark Plugs/Cap
         - [x] Check CCV Filter, Replace if Crank Case Pressure is Above Barometric
+        - [x] Visually Examine the Panels and Wiring for Burned, Melted, or Loose Connections
+        - [x] Do a Thermal Inspection of the Panels and Wiring for Hot Connections
 
     !!! failure maintenance-yearly "Every Year Service"
         - [x] Drain, Flush, & Replace Coolant
@@ -226,6 +250,11 @@ order: 3
         - [x] Replace Ignition Coils & Boots
         - [x] Replace Throttle Bodies
         - [x] Replace Crankcase Ventilation Impacter
+        - [x] Visually Examine All Wiring and Connections for Damage or Wear
+        - [x] Do a Thermal Inspection of All Wiring and Connections for Hot Spots
+        - [x] If the Unit Has a DSE Controller Panel, Check for Loose Connections in the Panel. Tighten Loose Connections
+        - [x] Check the Generator Output Terminal Nuts. If a Nut Is Loose, Tighten It Only Until It Is Tight
+        - [x] Check the Battery Terminals and Ground Connections. Tighten Loose Terminals and Connections
 
     !!! danger maintenance-major "Every 24,000 Hours (Top End)"
         - [x] Replace Coolant Pumps
@@ -255,10 +284,9 @@ order: 3
         - [x] Monitor Engine Coolant Temperature            
         - [x] Monitor Battery Charging Voltage
         - [x] Monitor IAT/MAT (Intake Air Temp, Manifold Air Temp)
-        - [x] Monitor Gen Output Voltage
-        - [x] Monitor Gen Voltage 
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
+        - [x] Monitor the DC System Voltage
+        - [x] Monitor Generator Output Voltage and Phase Balance
+        - [x] Check for Alarms on the DSE or DynaGen Controller
         - [x] Check Hoses/Clamps/Pipes/Belts/Electrical Harness
 
     !!! tip maintenance-inital "500 Hour Initial Service"
@@ -276,6 +304,15 @@ order: 3
         - [x] Check/Adjust Valve Lash        
         - [x] Check/Replace Air Filter
         - [x] Check/Replace Hoses/Clamps/Pipes/Belts/Harness
+        - [x] Visually Examine the Panels and Wiring for Burned, Melted, or Loose Connections
+        - [x] Do a Thermal Inspection of the Panels and Wiring for Hot Connections
+
+    !!! failure maintenance-yearly "Every Year Service"
+        - [x] Visually Examine All Wiring and Connections for Damage or Wear
+        - [x] Do a Thermal Inspection of All Wiring and Connections for Hot Spots
+        - [x] If the Unit Has a DSE Controller Panel, Check for Loose Connections in the Panel. Tighten Loose Connections
+        - [x] Check the Generator Output Terminal Nuts. If a Nut Is Loose, Tighten It Only Until It Is Tight
+        - [x] Check the Battery Terminals and Ground Connections. Tighten Loose Terminals and Connections
 
     !!! warning maintenance-major "Every 8,000 Hours Service"
         - [x] Cylinder Heads
@@ -341,9 +378,9 @@ order: 3
         - [x] Check Engine Oil Pressure
         - [x] Monitor Oil Pressure                  
         - [x] Monitor Engine Temperature            
-        - [x] Monitor 12V System                    
-        - [x] Monitor Gen Phase Balance             
-        - [x] Monitor Gen Voltage                   
+        - [x] Monitor the 12 V DC System Voltage
+        - [x] Monitor Generator Output Voltage and Phase Balance
+        - [x] Check for Alarms on the DSE or DynaGen Controller
         - [x] Check Hoses/Clamps/Pipes/Belts/Harness
 
     !!! question maintenance-interval "Every 250 Hours Service"
@@ -370,6 +407,8 @@ order: 3
         - [x] Drain LPL Vaporizer Oil Build Up (if Installed)
         - [x] Check/Replace Spark Plugs/Cap
         - [x] Check CCV Filter, Replace if Crank Case Pressure is Above Barometric
+        - [x] Visually Examine the Panels and Wiring for Burned, Melted, or Loose Connections
+        - [x] Do a Thermal Inspection of the Panels and Wiring for Hot Connections
 
     !!! failure maintenance-yearly "Every Year Service"
         - [x] Drain, Flush, & Replace Coolant
@@ -378,6 +417,11 @@ order: 3
         - [x] Replace Fan & Water Pump Belts
         - [x] Replace Ignition Coils & Boots
         - [x] Replace Throttle Bodies
+        - [x] Visually Examine All Wiring and Connections for Damage or Wear
+        - [x] Do a Thermal Inspection of All Wiring and Connections for Hot Spots
+        - [x] If the Unit Has a DSE Controller Panel, Check for Loose Connections in the Panel. Tighten Loose Connections
+        - [x] Check the Generator Output Terminal Nuts. If a Nut Is Loose, Tighten It Only Until It Is Tight
+        - [x] Check the Battery Terminals and Ground Connections. Tighten Loose Terminals and Connections
 
     !!! danger maintenance-major "Every 24,000 Hours (Top End)"
         - [x] Replace Coolant Pumps
