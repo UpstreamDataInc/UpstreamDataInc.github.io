@@ -51,7 +51,7 @@ order: 3
 ## Engine Maintenance Checklist
 
 !!! warning "Electrical Defects"
-    If you find an electrical defect, stop the generator set immediately. Repair the defect before you put the generator set back into service.
+    If you find an electrical defect, stop the genset immediately. Repair the defect before you put the genset back into service.
 
 === "5.7L GM"
     
